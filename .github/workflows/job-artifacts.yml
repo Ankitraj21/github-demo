@@ -56,4 +56,4 @@ jobs:
       - name: Output fileName
         run: echo ${{ needs.build.outputs.script-file }}
       - name: Deploy code
-        run: echo "Deploying..."s
+        run: echo "Deploying..."
