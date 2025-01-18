@@ -37,6 +37,6 @@ jobs:
         with:
           name: website
       - name: Output artifacts
-        run: ls -l dist
+        run: ls
       - name: Deploy code
         run: echo "Deploying..."s
