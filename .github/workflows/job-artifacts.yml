@@ -32,11 +32,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      -name: Download artifacts
+      - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           name: Uwebsite
-      -name: Output artifacts
+      - name: Output artifacts
         run: ls -l dist
       - name: Deploy code
         run: echo "Deploying..."s
